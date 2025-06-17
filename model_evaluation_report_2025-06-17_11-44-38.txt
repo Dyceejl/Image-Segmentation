@@ -1,0 +1,58 @@
+============================================================
+MODEL EVALUATION REPORT
+============================================================
+Generated on: 2025-06-17 11:44:38
+Model: best_model_fast.keras
+Test Images Path: D:/Image Segmentation/preprocessed_images/test/images/
+Test Masks Path: D:/Image Segmentation/Adult tooth segmentation dataset/data_split/test/masks/
+Total Test Images: 478
+Successfully Processed: 276
+
+OVERALL STATISTICS
+------------------------------
+DICE:
+  Mean: 0.905775
+  Std:  0.012725
+  Min:  0.768649
+  Max:  0.926430
+  Median: 0.907254
+
+JACCARD:
+  Mean: 0.828012
+  Std:  0.020235
+  Min:  0.624232
+  Max:  0.862943
+  Median: 0.830251
+
+PIXEL_ACCURACY:
+  Mean: 0.969097
+  Std:  0.006932
+  Min:  0.902954
+  Max:  0.978775
+  Median: 0.970642
+
+SENSITIVITY:
+  Mean: 0.937138
+  Std:  0.026012
+  Min:  0.837893
+  Max:  0.983378
+  Median: 0.944051
+
+SPECIFICITY:
+  Mean: 0.978884
+  Std:  0.006272
+  Min:  0.919413
+  Max:  0.989473
+  Median: 0.979457
+
+PRECISION:
+  Mean: 0.927877
+  Std:  0.023036
+  Min:  0.724546
+  Max:  0.965275
+  Median: 0.929598
+
+PERFORMANCE INTERPRETATION
+------------------------------
+Dice Score: EXCELLENT (>=0.90)
+IoU Score: EXCELLENT (>=0.80)
